@@ -1,0 +1,32 @@
+start
+
+new i number
+set i 1
+new j number
+set j 1
+
+new result number
+new temp number
+? Для цикла умножения
+new counter number
+
+loop outerLoop (10 > i)
+
+    loop innerLoop (10 > j)
+        set result 0
+        set counter i
+        
+        loop multiplyLoop (counter > 0)
+            set result result + j
+            set counter counter - 1
+        end multiplyLoop
+        log string i >> " * " >> j >> " = " >> result
+
+        set j j + 1
+    end innerLoop
+    set j 1
+
+    set i i + 1
+end outerLoop
+
+finish
