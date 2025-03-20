@@ -1,0 +1,15 @@
+start
+new AB number
+set AB 10
+? без учета 10 минут ожидания
+new BC number
+set BC 23 + 10
+new CD number
+set CD 33
+new AD number
+set AD 50
+
+log string "AB: " >> AB >> " мин. BC с ожиданием автобуса 10 минут: " >> BC >> " мин. CD " >> CD >> " мин"
+log string "AD: " >> AD >> " мин"
+  
+finish
