@@ -1,0 +1,14 @@
+start
+new ourMoney number
+set ourMoney 17
+
+new price number
+set price 18
+
+if (price > ourMoney)
+  log string "sorry, but u cann't buy"
+else
+  log string "u can buy"
+close
+  
+finish
