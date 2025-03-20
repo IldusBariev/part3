@@ -1,0 +1,12 @@
+start
+new age number
+set age 17
+
+if (age > 17)
+  log string "u can buy"
+else
+  log string "sorry, but u cann't buy"
+
+close
+  
+finish
