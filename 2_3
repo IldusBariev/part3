@@ -1,0 +1,21 @@
+start
+
+new num number
+set num 2
+
+new result number
+set result 0
+
+new i number
+set i 0
+
+loop lazy (num > i)
+set result result + num
+set i i + 1
+end lazy
+
+set result result + 2
+
+log string "x = " >> result
+
+finish
