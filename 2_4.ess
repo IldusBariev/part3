@@ -1,0 +1,22 @@
+start
+? длина 100, написал  1 000 000 чтобы получить 3,14 но только без запятой
+new length number
+set length 1000000
+
+?диаметр 31.83, зачем так написал уже выше
+new diameter number
+set diameter 3183
+
+
+
+new pi number
+set pi 0
+
+loop ImTired (length > diameter)
+set pi pi + 1
+set length length - diameter
+end ImTired
+
+log number pi
+
+finish
